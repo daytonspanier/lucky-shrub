@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background: rgb(206,208,206);
+    background: radial-gradient(circle, rgba(206,208,206,1) 2%, rgba(159,184,173,1) 49%, rgba(75,88,65,1) 100%);
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Header */
+
+header {
+    margin-bottom: 3%;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+/* Nav bar */
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 2%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 10px 25px;
+    border: 2px solid #9FB8AD;
+    border-radius: 8px;
+    transition-duration: 0.4s; 
+}
+
+nav li:hover {
+    background-color: #9FB8AD;
+    box-shadow: inset 0 0 2px;
+}
+
+nav a {
+    color: #3F403F;
+    text-decoration: none;
+}
+
+
+
+/* Main */
+
+.promo {
+    padding: 0%;
+}
+
+.company-services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width: 50px;
+}
