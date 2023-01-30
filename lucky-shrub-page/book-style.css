@@ -64,50 +64,6 @@ nav a {
 
 
 
-/* Main */
-
-.promo {
-    padding: 0%;
-}
-
-.company-services {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-
-.info {
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 5px 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: start; 
-}
-
-.info img {
-    width: 80px;
-    margin-bottom: 20px;
-   
-}
-
-.info h2 {
-    height: 50px;
-    text-align: center; 
-}
-
-.info p {
-    margin-top: 50px;
-}
-
-
-/* Footer */
-
 footer {
     display: flex;
     margin-bottom: 5%;
